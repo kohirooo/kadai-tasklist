@@ -9,6 +9,6 @@
     {!! Form::model($task, ['route' => ['tasks.destroy', $task->id], 'method' => 'delete']) !!}
     {!! Form::submit('削除') !!}
     {!! Form::close() !!}
-    {!! link_to_route('task.create', '新規タスクの投稿') !!}
+    {!! link_to_route('tasks.create', '新規タスクの投稿') !!}
     
 @endsection
